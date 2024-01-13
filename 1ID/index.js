@@ -39,3 +39,5 @@ setInterval(transmit, 24 * 60 * 60 * 1000);
 console.log('Webhook transmission successful');
 
 keepAlive();
+
+client.login(process.env.TOKEN);
