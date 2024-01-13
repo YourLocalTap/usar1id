@@ -1,4 +1,4 @@
-const keepAlive = require(`./server`);
+const keep_alive = require('./keep_alive.js')
 
 const gateway = require('./data');
 const { WebhookClient, Colors, EmbedBuilder } = require('discord.js');
